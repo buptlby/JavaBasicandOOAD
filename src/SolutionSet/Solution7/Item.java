@@ -1,4 +1,4 @@
-package com.solution.Solution7;
+package SolutionSet.Solution7;
 
 public class Item {
     //属性

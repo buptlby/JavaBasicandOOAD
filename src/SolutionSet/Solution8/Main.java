@@ -1,4 +1,4 @@
-package com.solution.Solution8;
+package SolutionSet.Solution8;
 
 import java.util.Scanner;
 

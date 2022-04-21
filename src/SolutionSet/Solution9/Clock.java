@@ -1,5 +1,6 @@
-package com.solution.Solution9;
+package SolutionSet.Solution9;
 
+//整个Clock
 public class Clock {
     //属性-三个框
     private Display hour =new Display(24);

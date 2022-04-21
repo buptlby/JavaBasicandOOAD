@@ -1,4 +1,4 @@
-package com.solution.Solution7;
+package SolutionSet.Solution7;
 
 public class DVD extends Item{
     //子类新增属性

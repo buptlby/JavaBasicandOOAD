@@ -1,8 +1,8 @@
-package com.solution.Solution9;
+package SolutionSet.Solution9;
 
 import java.util.Scanner;
 
-//第二章编程练习
+//作业编程题：时钟程序
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

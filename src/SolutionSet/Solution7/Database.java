@@ -1,4 +1,4 @@
-package com.solution.Solution7;
+package SolutionSet.Solution7;
 
 import java.util.ArrayList;
 

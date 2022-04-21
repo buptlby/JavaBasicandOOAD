@@ -1,6 +1,6 @@
-package com.solution.Solution9;
+package SolutionSet.Solution9;
 
-//代表整个钟当中的一个小显示框
+//整个钟当中的一个小显示框
 public class Display {
     //属性
     private int value=0;//框中的数值，默认的0值
