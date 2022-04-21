@@ -2,8 +2,9 @@ package com.solution;
 
 import java.util.Scanner;
 
+//Q：tic-tac-toe游戏：下棋，在二维数组里
 public class Solution4 {
-    //tic-tac-toe游戏：下棋，在二维数组里
+    //
     public void main(){
         //初始化一个二维数组
         int[][] map = new int[3][3];//3*3的棋盘，初始化Java自动全设置为0；
@@ -45,7 +46,7 @@ public class Solution4 {
             }
         }
     }
-
+    //
     //TODO：测试运行
     public static void main(String[] args) {
         Solution4 solution4 = new Solution4();

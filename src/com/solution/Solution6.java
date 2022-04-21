@@ -2,8 +2,9 @@ package com.solution;
 
 import java.util.*;
 
+//Q：泛型容器类，各操作加强印象
 public class Solution6 {
-    //对于泛型容器类，各操作加强印象
+    //
     //1.ArrayList<>
     //动态修改的容器类
     public void al(){
@@ -27,6 +28,7 @@ public class Solution6 {
         //可以直接sout打印出整个ArrayList对象
         System.out.println("用sout直接一次打印出ArrayList中的所有元素："+al);
     }
+    //
     //2.对象数组
     //对象数组中的每个元素都是对象的管理者，而非对象本身
     public void on(){
@@ -51,6 +53,7 @@ public class Solution6 {
         //可以直接sout打印出整个对象数组
         System.out.println("用sout直接一次打印出对象数组中的所有元素："+ Arrays.toString(on));//数组类型直接打印需要Arrays.toString(数组名);
     }
+    //
     //3.集合容器
     //集合中无重复元素，例如HashSet<>
     public void set(){
@@ -69,6 +72,7 @@ public class Solution6 {
         //通过sout直接打印出整个集合容器里的所有元素
         System.out.println("用sout直接一次打印出集合容器中的所有元素："+hs);//打印出只有Hello World，没有第二个Hello的重复元素
     }
+    //
     //4.Hash表
     //HashMap<Key,Value>，其中的类型必须是对象，而不能是基本元素，例如：Interger可以，int不行；
     public void hm(){
@@ -95,39 +99,10 @@ public class Solution6 {
             System.out.println("关键字："+k+",值："+hm.get(k));
         }
     }
+    //
     //TODO:测试运行
     public static void main(String[] args) {
         Solution6 solution6 = new Solution6();
         solution6.hm();
-    }
-
-    public static class Solution7 {
-        //属性
-        private int number;
-        private String s;
-
-        //getter setter通过generate自动生成
-        public int getNumber() {
-            return number;
-        }
-
-        public void setNumber(int number) {
-            this.number = number;
-        }
-
-        public String getS() {
-            return s;
-        }
-
-        public void setS(String s) {
-            this.s = s;
-        }
-
-        //构造函数 通过generate自选参数自动生成，默认值不用，写在内部就行
-        public Solution7(int number, String s) {
-            //super.();//如果有父类，从父类继承来的构造函数
-            this.number = number;
-            this.s = s;
-        }
     }
 }

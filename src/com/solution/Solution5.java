@@ -2,16 +2,21 @@ package com.solution;
 
 import java.util.Arrays;
 
+//Q：验证数组、字符串传递参数：传值/管理权限？
 public class Solution5 {
-    //验证数组、字符串传递参数，传值/管理权限？
+    //
+    //1.验证数组传递参数
     public void transferArray(int[] nums){
         nums[0]=0;
         System.out.println("transferArray："+Arrays.toString(nums));
     }
+    //
+    //2.验证字符串传递参数
     public void transferString(String s){
         s="Hello TransferString!";
         System.out.println("transferString："+s);
     }
+    //
     //TODO:运行测试
     public static void main(String[] args) {
         //初始化实例
