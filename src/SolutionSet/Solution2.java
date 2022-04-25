@@ -48,7 +48,7 @@ public class Solution2 {
      * 辗转相除的思想：
      * 1.如果b=0，计算结束，a就是最大公约数
      * 2.否则，计算a对b取余，a=b，b=那个余数，再回到第一步*/
-    //
+
     //TODO：测试运行
     public static void main(String[] args) {
         Solution2 solution2 = new Solution2();

@@ -2,7 +2,7 @@ package SolutionSet.Solution9;
 
 import java.util.Scanner;
 
-//作业编程题：时钟程序
+//时钟程序：入口
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

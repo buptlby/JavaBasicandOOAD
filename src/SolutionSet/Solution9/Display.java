@@ -5,10 +5,12 @@ public class Display {
     //属性
     private int value=0;//框中的数值，默认的0值
     private int uplimit=0;//数值上限
+
     //构造函数：初始化框中的上限
     public Display(int uplimit) {
         this.uplimit = uplimit;
     }
+
     //功能函数
     //1.框内数值增加
     public void increase(){
@@ -19,6 +21,7 @@ public class Display {
             value=0;
         }
     }
+
     //显示框中的数值
     public int getValue() {
         return value;

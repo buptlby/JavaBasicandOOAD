@@ -50,7 +50,7 @@ public class Solution1 {
             System.out.println("输入的数值："+x+"，不是素数");
         }
     }
-    //
+
     //TODO：测试运行
     public static void main(String[] args) {
         Solution1 solution1 = new Solution1();
